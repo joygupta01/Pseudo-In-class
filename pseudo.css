@@ -1,0 +1,33 @@
+
+input[type=text]{
+    background-color: aquamarine;
+}
+ul>li{
+    font-size: larger;
+    Color:rgb(7, 130, 7);
+}
+h1+p{
+    color:rgb(46, 158, 158);
+}
+h1{
+    color:blue;
+}
+li:hover{
+    Color:black;
+}
+li:nth-child(2){
+    color:chocolate;
+}
+p:not(:first-of-type){
+    text-transform: uppercase;
+}
+li::before{
+    content: "➡️";
+}
+p::after{
+    content:"❤️";
+}
+p::first-letter {
+    font-size: 200%;
+    color: darkcyan;
+}
